@@ -23,6 +23,11 @@ public class Crime {
         return mId;
     }
 
+    @Override
+    public String toString() {
+        return mTitle;
+    }
+
     public String getTitle() {
         return mTitle;
     }
@@ -47,5 +52,7 @@ public class Crime {
     public void setSolved(boolean solved) {
         mSolved = solved;
     }
+
+
 
 }
